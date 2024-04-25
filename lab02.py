@@ -28,8 +28,10 @@ mytel.write(b'exit\n')
 output = mytel.read_all().decode('ascii')
 print(output)
 
+'''
 # Pause to allow the user to read the output
 input('Press Enter to Continue')
 
 # Closing the connection
 mytel.close()
+'''
